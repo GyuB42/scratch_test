@@ -34,10 +34,10 @@ class Scratch3YourExtension {
                     opcode: 'myFirstBlock',
 
                     // type of block - choose from:
-                    //   BlockType.REPORTER - returns a value, like "direction" ;returns a string or number
-                    //   BlockType.BOOLEAN - same as REPORTER but returns a true/false value ;returns a boolean (note the capitalization)
-                    //   BlockType.COMMAND - a normal command block, like "move {} steps" ;does something but doesn't return a value
-                    //   BlockType.HAT - starts a stack if its value changes from false to true ("edge triggered") ;event catching block
+                    //   BlockType.REPORTER - returns a value, like "direction"
+                    //   BlockType.BOOLEAN - same as REPORTER but returns a true/false value
+                    //   BlockType.COMMAND - a normal command block, like "move {} steps"
+                    //   BlockType.HAT - starts a stack if its value changes from false to true ("edge triggered")
                     blockType: BlockType.REPORTER,
 
                     // label to display on the block
